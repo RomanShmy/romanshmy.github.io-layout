@@ -1,0 +1,49 @@
+header, footer{
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: inset;
+    
+}
+header{
+    background-color: cyan;
+    padding: 10px;
+    border-style: inset;
+}
+
+main, aside{
+    position: relative;
+    
+}
+
+aside{
+    float: left;
+    width: 200px;
+    height: 140px;
+    border-style: inset;
+   
+    margin-left: 0px;
+    background-color: green;
+
+}
+main #main{
+    float: right;
+    margin-right: -212px;
+    background-color: yellow;
+    
+    width: 100%;
+    border-style: inset;
+    
+}
+main #extra{
+    float: right;
+    margin-right: -212px;
+    background-color: grey;
+    width: 100%;
+    border-style: inset;
+}
+footer{
+    margin-bottom: 0;
+    background-color: orange;
+    clear: both;
+    padding: 10px;
+}

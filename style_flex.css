@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  main {
+    flex: 1;
+  }
+  aside {
+    flex: 0 0 200px;
+    padding: 0 10px;
+    background-color: green;
+    border-style: inset;
+  }
+  header{
+    background-color: aqua;
+    padding: 10px;
+    border-style: inset;
+  }
+  footer{
+    background-color: orange;
+    padding: 10px;
+    border-style: inset;
+  }
+
+  main #main{
+      background-color: yellow;
+      border-style: inset;
+  }
+  main #extra{
+    background-color: grey;
+    border-style: inset;
+  }
+
